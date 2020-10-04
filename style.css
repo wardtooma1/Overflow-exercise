@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(27, 97, 74);
+    width: 70%;
+    margin: auto;
+}
+main{
+    width: 100%;
+    margin: auto;
+}
+main > section {
+    border: solid; color: black;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+main > section > section:nth-child(odd){
+    background-color:lightsteelblue;
+}
+main > section > section:nth-child(even){
+    background-color: lightskyblue;
+}
+main > section > section> div{
+    width: 100px;
+    height: 100px;
+    background-color:lightslategrey;
+    text-align: center;
+    border:5px;  color: black; border: solid;
+}
+main >  section:first-child> section:nth-child(1) > div{
+    margin: 40px;
+}
+main > section:first-child > section:nth-child(2) > div{
+    margin-top: 40px;
+}
+main > section:first-child > section:nth-child(3) > div{
+    margin-left: auto;
+}
+h2{
+    color: green;
+    text-align: center;
+    }
+main>section:first-child>section:nth-child(2)>div{
+    overflow: hidden;
+}
+main>section:first-child>section:nth-child(3)>div{
+    overflow: scroll;
+}
+main>section:first-child>section:nth-child(4)>div{
+    overflow: auto;
+}
